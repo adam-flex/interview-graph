@@ -53,8 +53,11 @@ public class Part3 {
 	/**
 	 * Calculates Total Cost as above, with the following adjustment:
 	 * <p>
-	 * If tariffProvider returns value >= 0.25 for an item in the exempt list, do not apply the
-	 * tariff
+	 * Apply tariff to a lane IFF:
+	 * <ul>
+	 * <li>Given product is NOT on the {@code exemptList}, AND</li>
+	 * <li>tariff value is >= 0.25</li>
+	 * </ul>
 	 *
 	 * @param graph          to calculate total cost
 	 * @param tariffProvider tariff provider that returns tariff value for given two countries
