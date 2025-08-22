@@ -53,10 +53,10 @@ public class Part2 {
 	/**
 	 * Calculates Total Cost as above, with the following adjustment:
 	 * <p>
-	 * Apply tariff to a lane IFF:
+	 * DO NOT apply tariff to a lane IFF:
 	 * <ul>
-	 * <li>Given product is NOT on the {@code exemptList}, AND</li>
-	 * <li>tariff value is >= 0.25</li>
+	 * <li>Tariff value is >= 0.25 for that lane, AND</li>
+	 * <li>Given product is on the {@code exemptList}</li>
 	 * </ul>
 	 *
 	 * @param graph          to calculate total cost
