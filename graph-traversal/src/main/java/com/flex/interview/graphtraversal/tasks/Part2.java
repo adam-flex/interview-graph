@@ -22,8 +22,8 @@ public class Part2 {
 
 	/**
 	 * Calculates Total Cost according to the formula:
-	 * <p>
-	 * LANE COST = PRODUCT COST * PRODUCT QUANTITY * SPLIT SUM(LANE COST)
+	 * <p>LANE COST = PRODUCT COST * PRODUCT QUANTITY * SPLIT</p>
+	 * <p>SUM(LANE COST)</p>
 	 *
 	 * @param graph graph to calculate
 	 * @return returns the total cost for the given graph
